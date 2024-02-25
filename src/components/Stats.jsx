@@ -1,5 +1,4 @@
 import { stats } from '../constants';
-
 import styles from '../styles';
 
 const Stats = () => (

@@ -1,5 +1,4 @@
 import { arrowUp } from '../assets';
-
 import styles from '../styles';
 
 const GetStarted = () => (

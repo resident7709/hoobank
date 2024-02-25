@@ -10,7 +10,6 @@ import {
   CTA,
   Footer,
 } from './components';
-
 import styles from './styles';
 
 const App = () => (
