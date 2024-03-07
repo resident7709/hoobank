@@ -2,6 +2,6 @@
 
 Fully Responsive Website with Modern UI/UX in React JS with Tailwind CSS.
 
-# Hoobank
+# HooBank
 
 https://resident7709.github.io/hoobank/
