@@ -9,7 +9,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     } feature-card`}>
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
-      <img src={icon} alt='icon' className='w-[50%] h-[50%] object-contain' />
+      <img src={icon} className='w-[50%] h-[50%] object-contain' alt='icon' />
     </div>
     <div className='flex-1 flex flex-col ml-3'>
       <h4 className='font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1'>
@@ -23,7 +23,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () => (
-  <section id='features' className={layout.section}>
+  <section id='features' className={`${layout.section} select-none`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         {' '}
